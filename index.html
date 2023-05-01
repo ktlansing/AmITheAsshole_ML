@@ -1,19 +1,93 @@
 <!DOCTYPE html>
+<!--
+	Created by Katie Lansing, Sakhi Naik, and Casey Ford
+-->
+
 <html>
-<head>
-	<title>CS414 ATIA</title>
-</head>
+	<head>
+		<title>CS414 ATIA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+		    h1, h2, h4 {
+		      text-align: center;
+		    }
+		 </style>
+	</head>
+
 <body>
-	<header>
-		<h1>AmITheAsshole Learning Model</h1>
-		<h2>Welcome to our github website for our Intro to Machine Learning final project! This project was created by Casey Ford, Sakhi Naik, and Katie Lansing </h2>
-	</header>
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header>
+			<h1 class="header">AmITheAsshole Learning Model</h1>
+			
+			<h2>Welcome to our github website for our Intro to Machine Learning final project! </h2>
+			<h4>This project was created by Casey Ford, Sakhi Naik, and Katie Lansing </h4>
+			<nav>
+				<h3>Navigation</h3>
+				<ul>
+					<li><a href="#desc">Description</a></li>
+					<li><a href="#data">Data Collecting</a></li>
+					<li><a href="#model">Model</a></li>
+					<li><a href="#train&tune">Training and Tuning</a></li>
+					<li><a href="#final">Final Deliverable</a></li>
+					<!--<li><a href="#elements">Elements</a></li>-->				
+				</ul>
+			</nav>
+
+		</header>
+		
+		<!-- Main -->
+		<div id="main">
 	
-	<main>
-		<p>This is the main content of my website.</p>
-		<button id="myButton">Click me!</button>
-	</main>
+			<main>
+				<p>This is the main content of my website.</p>
+				<button id="myButton">Click me!</button>
+			</main>
+			
+			<!-- Description -->
+			<article id="desc">
+				<h3 class="major">Description</h2>
+				<p><b>Problem Statement:</b> Our goal project is to use Machine Learning to predict what people will think about. </p>
+			</article>
+
+			<!-- Data Collecting -->
+			<article id="data">
+				<h3 class="major">Data Collecting</h2>
+				<p><b>Scraping:</b> We used python script main.py to scrape the target subreddit and get posts. </p>
+				<p><b>Splitting into Sets:</b> We decided to implement a 60-20-20** (did we change??) distribution for our training, validation, and test sets.</p>
+			</article>
+
+			<!-- Model -->
+			<article id="model">
+				<h3 class="major">Model</h2>
+				<p>We decided to use a pre-trained Bidirectional Recurrent neural network called BERT for our model choice.</p>
+			</article>
+
+			<!-- Training & Tuning -->
+			<article id="train&tune">
+				<h3 class="major">Training and Tuning</h2>
+				<p>We first used small batches of around 60 posts to initialize our training.</p>
+			</article>
+
+
+			<!-- Final Deliverable -->
+			<article id="results">
+				<h3 class="major">Results</h2>
+				<p>Insert link to Notebook, video, and executive report</p>
+			</article>
+
+			
+
+		</div>
 	
+
+
 	<footer>
 		<p>Copyright © 2023 CS414 AITA</p>
 	</footer>
