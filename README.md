@@ -1,5 +1,5 @@
 # AmITheAsshole_ML
-Given a text post on the subreddit r/AmITheAsshole, we want to train a model to be able to predict whether or not the Reddit community thinks that the poster of an AITA post is or is not the asshole. 
+Given a text post on the subreddit r/AmITheAsshole, we trained a model to predict whether or not the Reddit community thinks that the poster of an AITA post is or is not the asshole. 
 
 # Files
 
@@ -19,3 +19,7 @@ This is the code that was used to run scrape the data from Reddit.
 ### pretrained_bert_model.py
 
 This is the code used to fine-tune the model, outside of the Google Colab.
+
+### tensorboard_data
+
+Contains the tensorboards that were run outside of the Google Colab. They are imported into the Colab and rendered there.
