@@ -1,47 +1,132 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
+<html lang="en"></html>
+<!--
+	Created by Katie Lansing, Sakhi Naik, and Casey Ford
+-->
+
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.6">
-  <style type="text/css">
-    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; color: rgba(0, 0, 0, 0.85); -webkit-text-stroke: rgba(0, 0, 0, 0.85)}
-    li.li5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
-    span.s1 {font-kerning: none}
-    span.s2 {-webkit-text-stroke: 0px #000000}
-    span.s3 {text-decoration: underline ; font-kerning: none}
-    span.s4 {font-kerning: none; background-color: #b3b3b3}
-    span.s5 {font: 12.0px Times; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    ul.ul1 {list-style-type: disc}
-  </style>
-</head>
+	<head>
+		<title>CS414 ATIA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Static Website for Machine Learning 414 Project: AmITheAsshole">
+    	<meta name="author" content="Katie Lansing, Sakhi Naik, Casey Ford">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="siteLogo.png" type="image/x-icon">
+
+
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+		<!-- Additional CSS Files -->
+		<link rel="stylesheet" href="assets/css/fontawesome.css">
+		<link rel="stylesheet" href="assets/css/templatemo-digimedia-v1.css">
+		<link rel="stylesheet" href="assets/css/animated.css">
+		<link rel="stylesheet" href="assets/css/owl.css">
+		<style type="text/css">
+		    h1, h2, h4, h3 {
+		    	text-align: center;
+				font: Sans-serif;
+		    }
+			p{
+				text-align: left;
+				font: Sans-serif;
+			}
+			hr {
+				height:5px;
+				border-width:0;
+				background-color:#00A4BD;
+			}
+
+		 </style>
+	</head>
+
 <body>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; text-align: center; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>AmITheAsshole Learning Model</b></span></h1>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; text-align: center; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Welcome to our github website for our Intro to Machine Learning final project!<span class="Apple-converted-space"> </span></b></span></h2>
-<h4 style="margin: 0.0px 0.0px 16.0px 0.0px; text-align: center; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>This project was created by Casey Ford, Sakhi Naik, and Katie Lansing<span class="Apple-converted-space"> </span></b></span></h4>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Navigation</b></span></h3>
-<ul class="ul1">
-  <li class="li5"><span class="s2"></span><span class="s3">Description</span></li>
-  <li class="li5"><span class="s2"></span><span class="s3">Data Collecting</span></li>
-  <li class="li5"><span class="s2"></span><span class="s3">Model</span></li>
-  <li class="li5"><span class="s2"></span><span class="s3">Training and Tuning</span></li>
-  <li class="li5"><span class="s2"></span><span class="s3">Final Deliverable</span></li>
-</ul>
-<p class="p6"><span class="s1">This is the main content of my website.</span></p>
-<p class="p7"><span class="s4">Click me!</span><span class="s5"><span class="Apple-converted-space"> </span></span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Description</b></span></h3>
-<p class="p6"><span class="s1"><b>Problem Statement:</b> Our goal project is to use Machine Learning to predict what people will think about.<span class="Apple-converted-space"> </span></span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Data Collecting</b></span></h3>
-<p class="p6"><span class="s1"><b>Scraping:</b> We used python script main.py to scrape the target subreddit and get posts.<span class="Apple-converted-space"> </span></span></p>
-<p class="p6"><span class="s1"><b>Splitting into Sets:</b> We decided to implement a 60-20-20** (did we change??) distribution for our training, validation, and test sets.</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Model</b></span></h3>
-<p class="p6"><span class="s1">We decided to use a pre-trained Bidirectional Recurrent neural network called BERT as our model.</span></p>
-<p><a href="https://colab.research.google.com/drive/1_2LDEkCzK8dec0BgSG2hT2ipp2GhPu_g?usp=sharing">Google Colab</a></p>
-<a href="https://colab.research.google.com/drive/1_2LDEkCzK8dec0BgSG2hT2ipp2GhPu_g?usp=sharing"><h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Executive Report</b></span></h3></a>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Watch us Talk About Our Model!</b></span></h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/el6d6DXbpuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header>
+			<h1 class="header">AmITheAsshole Learning Model</h1>
+			
+			<h2>Welcome to our github website for our Intro to Machine Learning final project! </h2>
+			<h4>This project was created by Casey Ford, Sakhi Naik, and Katie Lansing </h4>
+			<hr>
+			<nav>
+				<h3 style="text-align: left;">Navigation</h3>
+				<ul>
+					<li><a href="#desc">Description</a></li>
+					<li><a href="#data">Data Collecting</a></li>
+					<li><a href="#model">Model</a></li>
+					<li><a href="#train&tune">Training and Tuning</a></li>
+					<li><a href="#final">Final Deliverable</a></li>
+					<!--<li><a href="#elements">Elements</a></li>-->				
+				</ul>
+			</nav>
+
+		</header>
+		
+		<!-- Main -->
+		<div id="main">
+			<hr>
+			<!-- Description -->
+			<article id="desc">
+				<h3 class="major">Project Description</h2>
+				<p><b>Problem Statement:</b> Our project's goal is to use Machine Learning to predict the sentiment towards a Reddit post on the subthread r/AmITheAsshole. </p>
+				<p>Real world applications of this project would include predicting how people react to internet text communcation</p>
+			</article>
+			<hr>
+			<!-- Data Collecting -->
+			<article id="data">
+				<h3 class="major">Data Collecting</h2>
+				<p><b>Scraping:</b> We used python script main.py to scrape the target subreddit and get posts. </p>
+				<p>Our data is supervised and used the ground-truth labels of "NTA" and "YTA", meaning "Not the Asshole" and "You're the Asshole" respectively.</p>
+				<p><b>Set Distrubtion:</b> We decided to implement an 80-10-10 distribution for our training, validation, and test sets.</p>
+				<p>The dataset we created consisted of 3,300 labeled samples created from reddit posts!</p>
+			</article>
+			<hr>
+			<!-- Model -->
+			<article id="model">
+				<h3 class="major">Pre-Trained BERT Model</h2>
+				<p>We decided to use a pre-trained Bidirectional Recurrent neural network called BERT for our machine learning model.</p>
+			</article>
+			<hr>
+			<!-- Training & Tuning -->
+			<article id="train&tune">
+				<h3 class="major">Training and Tuning</h2>
+				<p>Our model's TensorBoard evaluation </p>
+			</article>
+			<hr>
+			<!-- Final Deliverable -->
+			<article id="results">
+				<h3 class="major">Final Results</h2>
+				<p style="text-align: center;">Our final deliverables are linked below! </p>
+				
+				<h3 style="text-align: center;"><a href="https://github.com/kt-lansing/AmITheAsshole_ML">Github Repository</a></h3>
+				<p style="text-align: center;">The link takes you to our project's github repository. All of our relavent project files are located there.</p>
+
+
+				<h3 style="text-align: center;"><a href="https://colab.research.google.com/drive/1_2LDEkCzK8dec0BgSG2hT2ipp2GhPu_g?usp=sharing">Google Colab</a></h3>
+				<p style="text-align: center;">This link takes you to the Google Colab for our Machine Learning Model. You can find all of the code we </p>
+
+				<h3 style="text-align: center;"><a href="https://docs.google.com/document/d/1suVA3QDMC7Fo24NwM12jXTQk4kxKFoOTxMmOEuo1sjU/edit?usp=sharing">Executive Report</a></h3>
+				<p style="text-align: center;">The link takes you to the Executive Report for our project. There, you can find more in-depth information about our Project's process and the design choices we made.</p>
+
+				<h3 style="text-align: center;"><b>Watch us Talk About Our Model!</b></h3>
+			
+				
+				<iframe style="text-align: center;" width="560" height="315" src="https://www.youtube.com/embed/el6d6DXbpuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</article>
+
+		</div>
+	
+
+		<hr>
+	<footer>
+		<p>Copyright © 2023 CS414 AITA</p>
+	</footer>
 </body>
 </html>
