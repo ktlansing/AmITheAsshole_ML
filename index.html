@@ -14,7 +14,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-		<link rel="shortcut icon" href="siteLogo.png" type="image/x-icon">
+		<link rel="shortcut icon" href="websiteImages/siteLogo.png" type="image/x-icon">
 
 
 		<!-- Bootstrap core CSS -->
@@ -27,13 +27,15 @@
 		<link rel="stylesheet" href="assets/css/animated.css">
 		<link rel="stylesheet" href="assets/css/owl.css">
 		<style type="text/css">
-		    h1, h2, h4, h3 {
+		    h1, h2, h4 {
 		    	text-align: center;
-				font: Sans-serif;
+		    }
+			h3 {
+				font-size: 20px;
+		    	text-align: center;
 		    }
 			p{
 				text-align: left;
-				font: Sans-serif;
 			}
 			hr {
 				height:5px;
@@ -55,18 +57,6 @@
 			<h2>Welcome to our github website for our Intro to Machine Learning final project! </h2>
 			<h4>This project was created by Casey Ford, Sakhi Naik, and Katie Lansing </h4>
 			<hr>
-			<nav>
-				<h3 style="text-align: left;">Navigation</h3>
-				<ul>
-					<li><a href="#desc">Description</a></li>
-					<li><a href="#data">Data Collecting</a></li>
-					<li><a href="#model">Model</a></li>
-					<li><a href="#train&tune">Training and Tuning</a></li>
-					<li><a href="#final">Final Deliverable</a></li>
-					<!--<li><a href="#elements">Elements</a></li>-->				
-				</ul>
-			</nav>
-
 		</header>
 		
 		<!-- Main -->
@@ -91,13 +81,22 @@
 			<!-- Model -->
 			<article id="model">
 				<h3 class="major">Pre-Trained BERT Model</h2>
-				<p>We decided to use a pre-trained Bidirectional Recurrent neural network called BERT for our machine learning model.</p>
+				<p>We used a pre-trained Bidirectional Recurrent neural network called BERT for our machine learning model because Natural Language Processing can be a complex task!</p>
+				<p>The specific BERT model we used was a BERT base uncased model which is a masked language model and outputs a label of "NTA" and "YTA" for each post.</p>
+				<p>See our Excutive Report and Google Colab for more information!</p>
 			</article>
 			<hr>
 			<!-- Training & Tuning -->
 			<article id="train&tune">
 				<h3 class="major">Training and Tuning</h2>
-				<p>Our model's TensorBoard evaluation </p>
+				<p>The BERT model is pre-trained so the training we performed was apply the model to our dataset. We used hyperparameter values for the epochs, batches, and learning rate that were within the recommended range of a BERT model.</p>
+				<p>Our model's TensorBoard evaluations are included below:</p>
+				<table>
+					<tr>
+					  <td><img src="websiteImages/accuracyTB.PNG" alt="Model's Accuracy"></td>
+					  <td><img src="websiteImages/lossTB.PNG" alt="Model's Loss"></td>
+					</tr>
+				</table>
 			</article>
 			<hr>
 			<!-- Final Deliverable -->
@@ -105,15 +104,15 @@
 				<h3 class="major">Final Results</h2>
 				<p style="text-align: center;">Our final deliverables are linked below! </p>
 				
-				<h3 style="text-align: center;"><a href="https://github.com/kt-lansing/AmITheAsshole_ML">Github Repository</a></h3>
-				<p style="text-align: center;">The link takes you to our project's github repository. All of our relavent project files are located there.</p>
+				<h3 style="font-size: 17px; text-align: center;"><a href="https://github.com/kt-lansing/AmITheAsshole_ML">Github Repository</a></h3>
+				<p style="text-align: center;">This link takes you to our project's github repository. All of our relavent project files are located there.</p>
 
 
-				<h3 style="text-align: center;"><a href="https://colab.research.google.com/drive/1_2LDEkCzK8dec0BgSG2hT2ipp2GhPu_g?usp=sharing">Google Colab</a></h3>
-				<p style="text-align: center;">This link takes you to the Google Colab for our Machine Learning Model. You can find all of the code we </p>
+				<h3 style="font-size: 17px; text-align: center;"><a href="https://colab.research.google.com/drive/1_2LDEkCzK8dec0BgSG2hT2ipp2GhPu_g?usp=sharing">Google Colab</a></h3>
+				<p style="text-align: center;">This link takes you to the Google Colab for our Machine Learning Model. You can find all of the code and more detailed information about functionality there.</p>
 
-				<h3 style="text-align: center;"><a href="https://docs.google.com/document/d/1suVA3QDMC7Fo24NwM12jXTQk4kxKFoOTxMmOEuo1sjU/edit?usp=sharing">Executive Report</a></h3>
-				<p style="text-align: center;">The link takes you to the Executive Report for our project. There, you can find more in-depth information about our Project's process and the design choices we made.</p>
+				<h3 style="font-size: 17px; text-align: center;"><a href="https://docs.google.com/document/d/1suVA3QDMC7Fo24NwM12jXTQk4kxKFoOTxMmOEuo1sjU/edit?usp=sharing">Executive Report</a></h3>
+				<p style="text-align: center;">This link takes you to the Executive Report for our project. There you can find more in-depth information about our Project's process and the design choices we made. This includes our Project Limitions, Future Work, and ChatGPT Usage.</p>
 
 				<h3 style="text-align: center;"><b>Watch us Talk About Our Model!</b></h3>
 			
