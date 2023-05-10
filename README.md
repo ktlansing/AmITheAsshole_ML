@@ -13,7 +13,7 @@ This file is the Google Colab Notebook of our project.
 
 ### Every_Post.csv
 
-This csv file contains all the posts that were scraped from Reddit and used as our data set.
+This CSV file contains all the posts that were scraped from Reddit and used as our data set.
 
 ### bert_model.h5
 
@@ -31,3 +31,11 @@ This is the code used to fine-tune the model, outside of the Google Colab.
 ### tensorboard_data
 
 Contains the tensorboards that were run outside of the Google Colab. They are imported into the Colab and rendered there.
+
+### index.html
+
+This is the HTML file for our GitHub static website. You can access the website through this link: https://kt-lansing.github.io/AmITheAsshole_ML
+
+### websiteImages
+
+This is the directory containing images for our GitHub static website.
