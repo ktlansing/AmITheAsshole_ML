@@ -3,6 +3,14 @@ Given a text post on the subreddit r/AmITheAsshole, we trained a model to predic
 
 # Files
 
+### Executive_Report.pdf
+
+This file contains the Executive Report of our project as a pdf.
+
+### AmITheAhole_ML_Model.ipynb
+
+This file is the Google Colab Notebook of our project.
+
 ### Every_Post.csv
 
 This csv file contains all the posts that were scraped from Reddit and used as our data set.
