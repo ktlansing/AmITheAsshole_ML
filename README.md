@@ -34,7 +34,7 @@ Contains the tensorboards that were run outside of the Google Colab. They are im
 
 ### index.html
 
-This is the HTML file for our GitHub static website. You can access the website through this link: https://kt-lansing.github.io/AmITheAsshole_ML
+This is the HTML file for our GitHub static website. You can access the website through this link: https://ktlansing.github.io/AmITheAsshole_ML
 
 ### websiteImages
 
